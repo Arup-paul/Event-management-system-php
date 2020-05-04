@@ -1,0 +1,134 @@
+*{
+    margin: 0;padding: 0;
+}
+
+body{
+    background: url("images/log.jpg")fixed;
+    background-size: cover;
+    overflow: hidden; 
+}
+.edit_form{
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.edit_form>div{
+ overflow: hidden;
+padding: 0 10px;
+}
+.edit_from_two{
+cursor: pointer;
+overflow: hidden;
+padding: 99px 0;
+}
+.login{
+background: #c3cda5 none repeat scroll 0 0;
+border-radius: 8px 8px 0 0;
+box-shadow: 0 4px 8px 5px rgba(195, 205, 165, 0.58), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+height: auto;
+margin: 0;
+padding: 100px 20px 20px;
+}
+
+/*
+.user-img{
+    height: 140px;
+    width: 140px;
+    border-radius: 100px;
+    border: 2px solid rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    left: 0;
+    box-shadow: 1px 1px 2px black, 0 0 25px #0600ffcc, 0 0 5px darkblue;
+}
+.login:hover .user-img{
+    left: 0px;
+    transition: 0.5s;
+}*/
+.user{
+background: #4b887e none repeat scroll 0 0;
+border: 3px solid #c3cda5;
+border-radius: 100%;
+height: 150px;
+left: 35%;
+overflow: hidden;
+position: absolute;
+top: 2%;
+width: 150px;
+}
+.user>h4{}
+.user>i{
+color: #096230;
+font-size: 11rem;
+padding: 17px 30px;
+ 
+}
+.email,.password{
+ margin: 0 !important;
+overflow: hidden;
+padding: 5px 10px 20px;
+}
+/*
+.user-img:hover i{
+    transform: rotateY(180deg);
+    transition:.4s;
+    overflow: hidden;
+}
+
+.user-img:hover{
+    background: rgba(0,0,0,0.5);
+    transition: .3s;
+    overflow: hidden;
+    top:0px;
+    border: 2px solid #fff;
+}
+
+.user-img span{
+    color: #fff;
+    font-family: play;
+    font-size: 2.3rem;
+    font-weight: 700;
+    overflow: hidden;
+    padding: 70px 30px 0px;
+    position: absolute;
+    text-align: center;
+    z-index: 99999;
+    left:-200px;
+    transition: .2s;
+    text-shadow: 1px 1px 2px black, 0 0 25px #0600ffcc, 0 0 5px darkblue;
+}
+
+.user-img:hover span{
+    left: 0px;
+    transition: .255s;
+}
+*/
+.form-style{
+    border: 1px solid #096230;
+    color: #096230;
+    font-family: play;
+    font-size: 1.7rem;
+}
+
+.checkbox{
+    display: inline-block;
+}
+.for-pass{
+    display: inline-block;
+}
+
+.submit{
+    background: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: play;
+    font-weight: 900;
+
+}
+
+.btn-submit{
+    padding-bottom: 20px;
+
+   
+}

@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.attendence_li{
+	list-style: none;
+	padding: 0;
+}
+.attendence_li h5{}
+
+.main-content {
+  overflow: hidden;
+}
+.main-content .page-title{
+  border:1px solid rgba(0,0,0,0.2);
+  overflow: hidden;
+  padding: 10px;
+  margin:20px 0 ;
+  background: #3a4250;
+  color: #fff;
+}
+
+
+.main-content form{
+  overflow: hidden;
+  border:1px solid rgba(0,0,0,0.2);
+  margin:0 0 50px 0 ;
+  padding: 10px;
+}
+
+.main-content table td{
+  text-align: center;
+}
+
+.main-content table th{
+  text-align: center;
+  background: #58B1FC;
+  color: #fff;
+}
+.present {
+  background: #248dc1 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 1.5rem;
+  height: 32px;
+  padding: 9px 0 0;
+  width: 32px;
+}
+
+
+
+.absent {
+
+  background: #DD4E41 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 1.5rem;
+  height: 32px;
+  padding: 9px 0 0;
+  width: 32px;
+}
+
+.text_marge {
+  background: #8cabc3 none repeat scroll 0 0;
+  margin: 5px;
+  padding: 5px;
+  height: 123px;
+}
+
+.file_upload {
+  height: 47px;
+  width: 100%;
+  margin: 10px 0;
+
+}
+
+.caption_text {
+  
+}
+
+.upload{
+background: #17a05d none repeat scroll 0 0;
+border: 1px solid #fff;
+color: #fff;
+font-size: 1.4rem;
+margin: 0;
+padding: 10px;
+}
+
+.mbox{
+  border: 1px solid green;
+
+}
+.mbox h4{
+  font-size: 1.5rem;
+
+}
+.submitbutton {
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 10px 7px;
+  background: #248DC1;
+}
+
+.smile{
+  color: #4B8BF5;
+  font-size: 1.7rem;
+}
